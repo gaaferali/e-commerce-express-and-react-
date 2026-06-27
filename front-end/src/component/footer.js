@@ -1,9 +1,11 @@
 import React from "react";
+
 const Footer = () => {
     return (
-        <div className="footer">
-        <h1>E-Commerce Dashboard</h1>
-        </div>
-    )
-}
-export default Footer;
+        <footer className="footer">
+            <h1>&copy; {new Date().getFullYear()} E-Shop Admin Dashboard. All rights reserved.</h1>
+        </footer>
+    );
+};
+
+export default Footer;
